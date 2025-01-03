@@ -21,7 +21,7 @@ def run_tg_thread(storage: Storage):
 
     client = TelegramClient('anon.session', config.api_id, config.api_hash)
 
-    @client.on(events.NewMessage(pattern='◇ Отправить'))
+    @client.on(events.NewMessage(pattern=config.target_phrase))
     async def send_handler(event):
         storage.update()
 
