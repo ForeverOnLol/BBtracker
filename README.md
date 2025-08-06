@@ -15,8 +15,8 @@
 ## Установка
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/ForeverOnLol/BBtracker.git
-cd BBtracker
+git clone https://github.com/ForeverOnLol/phrase-tracker.git
+cd phrase-tracker
 ```
 
 2. Установите зависимости:
